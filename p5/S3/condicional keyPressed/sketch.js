@@ -16,7 +16,7 @@ function draw() {
 function keyPressed() {
   if(key == 'a'){
     c = 255;
-    s=300;
+    s = 300;
   }
   if(key == 's'){
     c = 100;

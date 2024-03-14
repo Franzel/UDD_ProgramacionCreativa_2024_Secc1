@@ -7,16 +7,16 @@ function setup() {
 }
 function draw() {
   background(255);
-  print("boolean cuadrao es: " + cuadrao + " --- Entonces ");
+  console.log("boolean cuadrao es: " + cuadrao + " --- Entonces ");
 
   if (cuadrao == true) {
     // haz una cosa
-    print("SOY un cuadrado");
+    console.log("SOY un cuadrado");
     fill(100,100,100);
     rect(width/2, height/2, 50, 50);
   } else {
     // haz otra cosa
-    print("NO SOY un cuadrado");
+    console.log("NO SOY un cuadrado");
     fill(200,200,200);
     ellipse(width/2, height/2, 50, 50);
   }
